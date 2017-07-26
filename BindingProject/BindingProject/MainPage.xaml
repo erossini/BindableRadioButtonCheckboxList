@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BindingProject"
+             xmlns:pscr="clr-namespace:PSC.Xam.Controls.BindableRadioButton;assembly=PSC.Xam.Controls.BindableRadioButton"
+             xmlns:pscc="clr-namespace:PSC.Xam.Controls.BindableCheckboxList;assembly=PSC.Xam.Controls.BindableCheckboxList"
+             x:Class="BindingProject.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Check and Radio Group Demo" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            <pscr:BindableRadioGroup x:Name="MyRadioGroup" ItemsSource="{Binding Path=MyList.Values}" SelectedIndex="{Binding SelectedIndex}" VerticalOptions="Start" />
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Selected Item is:" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Label x:Name="txtSelected" Text="" VerticalOptions="Center" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Select The Index" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Entry Text="{Binding SelectedIndex}"  VerticalOptions="Center" HorizontalOptions="Center" />
+            </StackLayout>
+
+            <pscc:BindableCheckboxGroup x:Name="MyCheckGroup" ItemsSource="{Binding Path=MyList2.Values}" SelectedIndex="{Binding SelectedItems}" VerticalOptions="Start" />
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Selected Items are:" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Entry x:Name="txtSelected2" Text="{Binding SelectedItemsText}" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

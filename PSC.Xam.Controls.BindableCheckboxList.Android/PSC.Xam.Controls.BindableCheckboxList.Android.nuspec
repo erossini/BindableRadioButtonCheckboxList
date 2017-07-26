@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PSC.Xam.Controls.BindableCheckboxList.Android</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Enrico Rossini</authors>
+    <owners>Enrico Rossini</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://puresourcecode.com/page/psc-xam-controls-bindablecheckboxlist</projectUrl>
+    <iconUrl>http://www.puresourcecode.com/image.axd?picture=/NuGet/NuGetPackagePSC.PNG</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implementation for Android of PSC.Xam.Controls.BindableCheckboxList</description>
+    <releaseNotes>Bindable CheckboxList for Xamarin Forms (Android version)</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>xamarin forms bindable checkbox list radio button</tags>
+  </metadata>
+</package>
