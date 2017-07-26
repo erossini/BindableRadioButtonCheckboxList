@@ -4,11 +4,11 @@ For support visit http://forum.puresourcecode.com/
 
 ## Screnshots
 
+### UWP
+![UWP screenshot](https://github.com/erossini/BindableRadioButtonCheckboxList/blob/master/Screenshots/UWP.PNG)
+
 ### iOS
 ![iOS screenshot](https://github.com/erossini/BindableRadioButtonCheckboxList/blob/master/Screenshots/iOS.png)
 
 ### Android
 ![Android screenshot](https://github.com/erossini/BindableRadioButtonCheckboxList/blob/master/Screenshots/Android.png)
-
-### UWP
-![UWP screenshot](https://github.com/erossini/BindableRadioButtonCheckboxList/blob/master/Screenshots/UWP.PNG)
